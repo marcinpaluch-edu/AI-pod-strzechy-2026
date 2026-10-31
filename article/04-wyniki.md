@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 ---
 
 # Część 4. Wyniki

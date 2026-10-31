@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 ---
 
 # Część 1. Omówienie wymagań oprogramowania

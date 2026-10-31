@@ -1,0 +1,25 @@
+{% assign chapters = "01-omowienie-wymagan-oprogramowania,02-kryteria-wyboru-modeli-jezykowych,03-zadanie-testowe,03a-szczegolowe-dane-testowe,04-wyniki,04a-wyniki-grupa1,04b-wyniki-grupa2,04c-wyniki-grupa3,04d-wyniki-grupa4,05-sprawdz-to-sam,06-podsumowanie,07-profile-wydawcow-modeli" | split: "," %}
+{% assign current_index = -1 %}
+{% assign last_index = chapters.size | minus: 1 %}
+{% for chapter in chapters %}
+  {% assign chapter_file = chapter | append: ".md" %}
+  {% if page.name == chapter_file %}
+    {% assign current_index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+{% assign previous_index = current_index | minus: 1 %}
+{% assign next_index = current_index | plus: 1 %}
+<nav aria-label="Nawigacja rozdziałów">
+  <p>
+    {% if current_index > 0 %}
+      {% assign previous_chapter = chapters[previous_index] %}
+      <a href="{{ previous_chapter | prepend: '/article/' | append: '.html' | relative_url }}">← Poprzednia strona</a>
+    {% endif %}
+    {% if current_index > 0 %} | {% endif %}
+    <a href="{{ '/' | relative_url }}">Spis treści</a>
+    {% if current_index < last_index %}
+      | {% assign next_chapter = chapters[next_index] %}
+      <a href="{{ next_chapter | prepend: '/article/' | append: '.html' | relative_url }}">Następna strona →</a>
+    {% endif %}
+  </p>
+</nav>

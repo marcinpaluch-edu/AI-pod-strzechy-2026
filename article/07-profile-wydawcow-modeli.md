@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 ---
 
 # Część 7. Przypis — kto właściwie wydaje te modele

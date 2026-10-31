@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 ---
 
 # Część 6. Podsumowanie

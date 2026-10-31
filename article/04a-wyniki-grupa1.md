@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 ---
 
 # Część 4a. Wyniki — grupa 1: poniżej 2 GB

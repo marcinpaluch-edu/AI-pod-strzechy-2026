@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 ---
 
 # Część 4b. Wyniki — grupa 2: od 2 do 6 GB

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 ---
 
 # Część 4d. Wyniki — grupa 4: powyżej 14 GB, stanowisko hostowe

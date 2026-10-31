@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 ---
 
 # Szczegółowe dane testowe

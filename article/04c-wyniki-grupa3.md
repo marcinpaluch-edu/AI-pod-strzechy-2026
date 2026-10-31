@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 ---
 
 # Część 4c. Wyniki — grupa 3: od 6 do 14 GB

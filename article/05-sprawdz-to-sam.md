@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 ---
 
 # Część 5. Sprawdź to sam
