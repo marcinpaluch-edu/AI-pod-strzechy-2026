@@ -3,6 +3,8 @@ Marcin Paluch,
 
 # AI pod strzechy!
 
+**Wersja internetowa:** [Czytaj na GitHub Pages](https://marcinpaluch-edu.github.io/AI-pod-strzechy-2026/)
+
 AI trafia pod strzechy! Pamiętam dyskusje sprzed 30 lat na temat czy a właściwie kiedy komputery trafią "pod strzechy", czyli wszyscy, nie tylko bogaci lub firmy, oraz nie tylko informatycy, pasjonaci lub gracze, ale wszyscy, będą je mieli.
 
 W 1996 r. biurkowe komputery osobiste miało niewiele osób a laptopów praktycznie nie widywało się. W szkołach królowały komputery klasy PC 286 lub 386. Z tych co komputer PC mieli na własność, większość, w tym ja, posiadała PC 386 lub 486 a ci, których było stać na nowości, posiadali komputery z procesorem Pentium. Do zabawy powszechne były Amigi, Comodorki, Spectrumy oraz konsole Pegasus.
