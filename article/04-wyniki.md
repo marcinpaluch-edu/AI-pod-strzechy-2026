@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Część 4. Wyniki
 
 Ta część odpowiada na pytanie postawione na początku: **czy na komputerze, który stoi w domu, da się uruchomić model językowy robiący coś użytecznego.** Odpowiedź brzmi w skrócie: tak, ale sprzęt okazał się problemem mniejszym niż sam wybór modelu. 
@@ -86,7 +90,7 @@ Dla porównania zwycięzcy grupy trzeciej i czwartej, za każdym razem tak samo:
 
 > Modivo (MDV.WA) zmieniło kurs o 2,30%, a jego aktualna cena wynosi 97 PLN. Nie podano przyczyny tego ruchu. — `gemma4:26b`
 
-**Grupa pierwsza nie ma zwycięzcy.** Pełne zestawienie jest dostępne [tutaj](./AI%20pod%20strzechy%2004a%20Wyniki%20grupa1.md), ale żaden z modeli tej grupy nie nadaje się do aplikacji piszącej po polsku. Najbliżej jest `granite4:micro-h`, który przechodzi w miarach 9 scenariuszy z 11, a z notatkami konsumowalnymi 6: obcina procenty („5,33%”), każdą notatkę o ruchu zaczyna od „Wczoraj” — umieszczenie wydarzeń w czasie wynika zapewne z jego danych treningowych, nie z promptu — i raz dopisuje zmyślone „CD Projekt wzruszyło się o 0,77%”. Nie pomogło ani wyjęcie z promptu zdania o zaokrąglaniu, ani przejście na angielski: po angielsku `granite4:micro-h` przechodzi test wszystkich cykli notowań z 23.09 z zestawu pierwszego, ale wszystkie modele grupy oblewają luźne scenariusze zestawu drugiego. W scenariuszu zmiany w kursie czterech spółek naraz każdy z nich gubi przynajmniej jedną, poza `qwen3.5:0.8b`, który podaje wszystkie cztery, tylko obcina procenty.
+**Grupa pierwsza nie ma zwycięzcy.** Pełne zestawienie jest dostępne [tutaj](./04a-wyniki-grupa1.md), ale żaden z modeli tej grupy nie nadaje się do aplikacji piszącej po polsku. Najbliżej jest `granite4:micro-h`, który przechodzi w miarach 9 scenariuszy z 11, a z notatkami konsumowalnymi 6: obcina procenty („5,33%”), każdą notatkę o ruchu zaczyna od „Wczoraj” — umieszczenie wydarzeń w czasie wynika zapewne z jego danych treningowych, nie z promptu — i raz dopisuje zmyślone „CD Projekt wzruszyło się o 0,77%”. Nie pomogło ani wyjęcie z promptu zdania o zaokrąglaniu, ani przejście na angielski: po angielsku `granite4:micro-h` przechodzi test wszystkich cykli notowań z 23.09 z zestawu pierwszego, ale wszystkie modele grupy oblewają luźne scenariusze zestawu drugiego. W scenariuszu zmiany w kursie czterech spółek naraz każdy z nich gubi przynajmniej jedną, poza `qwen3.5:0.8b`, który podaje wszystkie cztery, tylko obcina procenty.
 
 **Podium grupy drugiej jest zaskakująco kruche.** Grupę drugą wygrywa `granite4.1:8b` — jako jedyny w niej przechodzi wszystkie jedenaście scenariuszy, ale o jego słabościach napisałem już powyżej. Tuż za nim, już tylko z dziesięcioma scenariuszami na jedenaście, są dwa modele, każdy z inną słabością. `granite4.1:3b` jest z nich najszybszy (9,5 s zimnego startu), ale przy czterech spółkach naraz podaje same kursy, bez procentów. `qwen3.5:4b` w tym samym scenariuszu podaje zmiany w złotych zamiast procentów, i to zmyślone („Modivo o 3,92 PLN”). `gemma4:e2b` ma osiem: w cyklu o 17:00 zapisuje kurs Polsatu 15,965 zł jako „15965.00 PLN”, czyli tak, jakby wynosił piętnaście tysięcy, a wypisując wbrew zakazowi kursy wszystkich spółek, urywa część notatek na limicie długości. Najczystszą polszczyznę w grupie daje `ministral-3:3b`, ale procenty skraca do jednego miejsca po przecinku („−5,3%”), więc jego notatki w trzech scenariuszach nie są konsumowalne. W teście z promptem po angielsku bez wad pisze `llama3.2:3b`, ale po polsku przechodzi tylko cztery scenariusze.
 
@@ -199,10 +203,7 @@ Każda grupa ma własny rozdział o tej samej budowie:
 - pełne teksty odpowiedzi — wszystkie notatki z cykli z ruchem i różne wersje notatek z cykli bez ruchu, z liczbą wystąpień,
 - komentarz i ranking końcowy.
 
-- [**Grupa 1 — poniżej 2 GB.**](./AI%20pod%20strzechy%2004a%20Wyniki%20grupa1.md) Dolna granica sensu. Żaden model nie przechodzi wszystkich scenariuszy ani po polsku, ani po angielsku — dla tej grupy dołożyłem badanie ratunkowe, zestaw drugi z promptem angielskim, i ono też nie dało kandydata.
-- [**Grupa 2 — od 2 do 6 GB.**](./AI%20pod%20strzechy%2004b%20Wyniki%20grupa2.md) Serce badania i najliczniejsza grupa: siedemnaście modeli, które mieszczą się na komputerze z 16 GB bez karty graficznej. Wszystkie jedenaście scenariuszy przechodzi tu tylko jeden model, a tuż za nim stoją trzy z dziesięcioma, każdy z inną słabością — wynik najważniejszy i zarazem najmniej jednoznaczny.
-- [**Grupa 3 — od 6 do 14 GB.**](./AI%20pod%20strzechy%2004c%20Wyniki%20grupa3.md) Trzy modele z konsumowalnym kompletem scenariuszy i jedyny w grupie z polszczyzną bez wad, `gemma4:12b`. Zarazem najsłabsza grupa pod kątem narzędzi: komplet w teście narzędzi ma w niej tylko czterech z dziewięciu.
-- [**Grupa 4 — powyżej 14 GB.**](./AI%20pod%20strzechy%2004d%20Wyniki%20grupa4.md) Mierzona wyłącznie na Ollamie zainstalowanej w systemie, przy zatrzymanym Podmanie. Daje najpewniejszego zwycięzcę badania i odpowiada na pytanie, co traci ten, kto zatrzymuje się na tańszym sprzęcie.
-
-
-
+- [**Grupa 1 — poniżej 2 GB.**](./04a-wyniki-grupa1.md) Dolna granica sensu. Żaden model nie przechodzi wszystkich scenariuszy ani po polsku, ani po angielsku — dla tej grupy dołożyłem badanie ratunkowe, zestaw drugi z promptem angielskim, i ono też nie dało kandydata.
+- [**Grupa 2 — od 2 do 6 GB.**](./04b-wyniki-grupa2.md) Serce badania i najliczniejsza grupa: siedemnaście modeli, które mieszczą się na komputerze z 16 GB bez karty graficznej. Wszystkie jedenaście scenariuszy przechodzi tu tylko jeden model, a tuż za nim stoją trzy z dziesięcioma, każdy z inną słabością — wynik najważniejszy i zarazem najmniej jednoznaczny.
+- [**Grupa 3 — od 6 do 14 GB.**](./04c-wyniki-grupa3.md) Trzy modele z konsumowalnym kompletem scenariuszy i jedyny w grupie z polszczyzną bez wad, `gemma4:12b`. Zarazem najsłabsza grupa pod kątem narzędzi: komplet w teście narzędzi ma w niej tylko czterech z dziewięciu.
+- [**Grupa 4 — powyżej 14 GB.**](./04d-wyniki-grupa4.md) Mierzona wyłącznie na Ollamie zainstalowanej w systemie, przy zatrzymanym Podmanie. Daje najpewniejszego zwycięzcę badania i odpowiada na pytanie, co traci ten, kto zatrzymuje się na tańszym sprzęcie.

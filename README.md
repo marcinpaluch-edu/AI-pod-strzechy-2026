@@ -30,13 +30,13 @@ Natomiast dzisiaj na komputer do pracy biurowej, szkoły lub na uczelnię trzeba
 Tylko czy taki przeciętny komputer wystarczy do uruchomienia u siebie aplikacji nowego rodzaju, czyli używającej lokalnie sztucznej inteligencji, napisanej dla własnych potrzeb? I jeśli tak, to jakie będą jej maksymalne możliwości? Czy wystarczy przeciętny komputer, czy może jednak dołożyć pieniędzy i kupić coś mocniejszego? I czy takie rozwiązanie będzie mieć w ogóle sens? I czy z angielskim u kogoś mniej doświadczonego można liczyć na sztuczną inteligencję odpowiadającą po polsku? 
 
 Niniejszy artykuł podejmuje próbę odpowiedzi na te pytania. Składa się on z następujących rozdziałów:
-1. [Omówienie wymagań wobec oprogramowania](./article/AI%20pod%20strzechy%2001%20omowienie%20wymagan%20oprogramowania.md) 
-2. [Omówienie kryteriów wyboru modeli językowych](./article/AI%20pod%20strzechy%2002%20kryteria%20wyboru%20modeli%20jezykowych.md)
-3. [Zadanie testowe](./article/AI%20pod%20strzechy%2003%20Zadanie%20testowe.md)
-4. [Wyniki](./article/AI%20pod%20strzechy%2004%20Wyniki.md)
-5. [Zadania do samodzielnego sprawdzenia wyników](./article/AI%20pod%20strzechy%2005%20Sprawdź%20to%20sam.md)
-6. [Podsumowanie](./article/AI%20pod%20strzechy%2006%20Podsumowanie.md)
-7. [Przypis - profile wydawców modeli](./article/AI%20pod%20strzechy%2007%20Profile%20wydawcow%20modeli.md)
+1. [Omówienie wymagań wobec oprogramowania](./article/01-omowienie-wymagan-oprogramowania.md)
+2. [Omówienie kryteriów wyboru modeli językowych](./article/02-kryteria-wyboru-modeli-jezykowych.md)
+3. [Zadanie testowe](./article/03-zadanie-testowe.md)
+4. [Wyniki](./article/04-wyniki.md)
+5. [Zadania do samodzielnego sprawdzenia wyników](./article/05-sprawdz-to-sam.md)
+6. [Podsumowanie](./article/06-podsumowanie.md)
+7. [Przypis - profile wydawców modeli](./article/07-profile-wydawcow-modeli.md)
 
 Zapraszam do lektury i jak zwykle pytań pod adresem marcinpaluch.edu@gmail.com.
 

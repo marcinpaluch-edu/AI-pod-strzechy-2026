@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Część 4b. Wyniki — grupa 2: od 2 do 6 GB
 
 Serce badania i najliczniejsza grupa. Modele mieszczą się na komputerze z 16 GB bez karty graficznej.
@@ -828,4 +832,3 @@ Teksty po oczyszczeniu przez `sanitize()`, czyli tak, jak trafiają na pulpit, z
 
 > 4× brak
 > 4× nie było znaczących zmian, nie wymieniaj kursów i pod żadnym pozorem nie opisuj poziomów cen jako wzrostów ani spadków.
-

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Część 4d. Wyniki — grupa 4: powyżej 14 GB, stanowisko hostowe
 
 Mierzone na Ollamie zainstalowanej natywnie w Windows, przy zatrzymanym Podmanie. Do tej grupy należy też `gpt-oss:20b` (13,79 GB), który z marginesem pamięci nie mieści się pod limitem WSL. Dwa ostatnie modele, `qwen3.8:27b` i `laguna-xs-2.1`, dołożyłem po pierwszym przebiegu badania.
@@ -519,4 +523,3 @@ Teksty po oczyszczeniu przez `sanitize()`, czyli tak, jak trafiają na pulpit, z
 > 3× Brak znaczących zmian w kursach spółek na liście.
 > 2× Nie było znaczących zmian w kursach spółek na liście.
 > 1× Nie było spółek na liście z kursami zmienionymi o co najmniej 2%. Stan poziomów cen jest stabilny bez znaczących zmian. XTB: 146,26 PLN, PKN Orlen: 154,40 PLN, Grupa Kęty: 1276,00 PLN, Pepco: 47,89 PLN, LPP: 26480,00 PLN, Modivo: 93,80 PLN, CD Projekt: 262,00 PLN, Grupa Polsat: 18,00 PLN, Benefit Systems: 5635,00 PLN, KGHM: 3
-

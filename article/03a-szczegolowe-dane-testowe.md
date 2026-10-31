@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Szczegółowe dane testowe
 
 ## Zestaw 1. Scenariusze wg pięciu cykli z dnia 23.09

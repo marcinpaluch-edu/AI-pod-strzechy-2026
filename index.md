@@ -1,4 +1,5 @@
 ---
 ---
 
-{% include_relative README.md %}
+{% capture readme %}{% include_relative README.md %}{% endcapture %}
+{{ readme | markdownify | rellinks }}

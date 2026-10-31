@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Część 3. Zadanie testowe
 
 Czy na komputerze, który stoi w domu albo w małej firmie, da się uruchomić model językowy robiący coś użytecznego — i czy da się z niego zbudować agenta, który działa sam? Czy **poprawnie skonfigurowany model odpowie poprawnie, dostatecznie szybko i na sprzęcie, który ktoś faktycznie może kupić w przeciętnym sklepie z komputerami?**
@@ -31,7 +35,7 @@ Na wejściu znalazły się prawdziwe dane notowań 10-11 spółkach w jedenastu 
 
 Kolumna Start: każdy przebieg zaczyna się od pustej pamięci, więc pierwszy scenariusz każdego zestawu model dostaje „na zimno”, z ładowaniem wag, a pozostałe „na ciepło”.
 
-Pełne dane każdego cyklu i scenariusza można znaleźć [tutaj](./AI%20pod%20strzechy%2003a%20Szczegolowe%20dane%20testowe.md).
+Pełne dane każdego cyklu i scenariusza można znaleźć [tutaj](./03a-szczegolowe-dane-testowe.md).
 
 Wszystkie jedenaście cykli to **jedenaście promptów wysyłanych do modeli** z mojego badania, różniących się tylko kursami i listą spółek, które się ruszyły (movers).
 
@@ -257,4 +261,4 @@ W każdej grupie wyłaniam zwycięzcę według trzech ocen, w tej kolejności, a
 **Kwalifikacja do pracy jako agent** nie wchodzi do tego rankingu. Sprawdzam ją rzeczywistym wywołaniem narzędzia, nie deklaracją z karty modelu, ale wątek narzędziowy i agentowy opisuję osobno — jest na tyle obszerny, że nie mieści się jako kolumna w tabeli.
 
 
-Zapraszam do lektury wyników [tutaj.](./AI%20pod%20strzechy%2004%20Wyniki.md)
+Zapraszam do lektury wyników [tutaj.](./04-wyniki.md)

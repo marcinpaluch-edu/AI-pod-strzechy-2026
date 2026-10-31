@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Część 6. Podsumowanie
 
 We wstępie postawiłem kilka pytań: czy przeciętny komputer wystarczy do uruchomienia aplikacji, która lokalnie używa sztucznej inteligencji, jakie są jej możliwości, czy warto dołożyć do mocniejszego sprzętu, czy takie rozwiązanie ma sens i czy można liczyć na odpowiedzi po polsku. Po czterdziestu czterech modelach, jedenastu scenariuszach i blisko dwóch tysiącach notatek odpowiedzi są następujące.
@@ -70,4 +74,4 @@ Sztuczna inteligencja trafia pod strzechy tak, jak trzydzieści lat temu trafia�
 
 Moja najważniejsza lekcja jest taka, że każdy nowy model warto najpierw samodzielnie uruchomić.
 
-[Rozdział piąty](./AI%20pod%20strzechy%2005%20Sprawdź%20to%20sam.md) pokazuje, jak powtórzyć to badanie u siebie.
+[Rozdział piąty](./05-sprawdz-to-sam.md) pokazuje, jak powtórzyć to badanie u siebie.

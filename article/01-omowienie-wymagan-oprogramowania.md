@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Część 1. Omówienie wymagań oprogramowania
 
 W tym artykule skupiam się na omówieniu oprogramowania użytego w moim teście, aby przybliżyć jego cechy i uzasadnić niektóre decyzje. Kluczowe komponenty to:

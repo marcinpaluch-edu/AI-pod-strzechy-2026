@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Część 4c. Wyniki — grupa 3: od 6 do 14 GB
 
 W kontenerze możliwe wyłącznie przy 32 GB RAM z WSL-em na 16 GB.
@@ -468,4 +472,3 @@ Teksty po oczyszczeniu przez `sanitize()`, czyli tak, jak trafiają na pulpit, z
 > 2× Ostatni sprawdzenie na liście GPW w Polsce nie wykazał znaczących zmian kursów spółek.
 > 1× PO Polsku: XTB: 147.82 PLN PKN Orlen: 154.98 PLN Grupa Kęty: 1292 PLN Pepco: 48 PLN LPP: 26400 PLN Modivo: 92.9 PLN CD Projekt: 262.4 PLN Grupa Polsat: 18.3 PLN Benefit Systems: 5730 PLN KGHM: 327.75 PLN Rainbow Tours: 126.7 PLN Brak spółek z zmianą kursu o co najmniej 2%.
 > 1× Spółki zmieniające kurs o co najmniej 2% od ostatniego sprawdzenia: brak.
-

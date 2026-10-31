@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Część 7. Przypis — kto właściwie wydaje te modele
 
 Czterdzieści cztery modele w badaniu pochodzą od dwunastu wydawców. Ten przypis opisuje każdego z nich z punktu widzenia kogoś, kto chce model po prostu pobrać i uruchomić u siebie: skąd pochodzą wagi, na jakiej licencji, czy wydawca ma coś małego i co z tego wyszło w moim zadaniu. Wyniki pochodzą z części 4, licencje omawiam szczegółowo w części 2.

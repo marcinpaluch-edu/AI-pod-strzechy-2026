@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Część 4a. Wyniki — grupa 1: poniżej 2 GB
 
 Zmieszczą się wszędzie, także na sprzęcie słabszym niż zakładany. Badam je dla porządku i po to, żeby pokazać, gdzie leży dolna granica sensu. Dla tej grupy dołożyłem badanie ratunkowe: zestaw drugi z promptem angielskim.
@@ -389,4 +393,3 @@ Teksty po oczyszczeniu przez `sanitize()`, czyli tak, jak trafiają na pulpit, z
 > 1× Spółka XTB została zaangażowana, z kursem wzrostła o 2% od ostatniego sprawdzenia. Kurs XTB: 149.64 PLN Brak znaczących zmian w cenach innych spółek na liście.
 > 1× Prywatna lista spółek z GPW: XTB została wzrostem o 146.26 PLN. PKN Orlen zwiększyła się o 154.4 PLN. Grupa Kęty przyczyniła się zmiany o 1276 PLN. Pepco zmniejszyła się o 47.89 PLN. LPP zwiększyła się o 26480 PLN. Modivo została wzrostem o 93.8 PLN. CD Projekt zwiększyła się o 262 PLN. Rainbow Tours została wzrostem o
 > 1× Brak znaczących zmian w cenach spółek z listy po ostatnim sprawdzeniu. Kurs XTB został zwiększony do 147,82 PLN. PKN Orlen został zwiększony do 154,98 PLN. Grupa Kęty została zwiększona do 1292 PLN. Pepco i Rainbow Tours nie występują na liście zwiększeń, więc ich ceny pozostają niezmienione.
-

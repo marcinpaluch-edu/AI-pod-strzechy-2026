@@ -1,6 +1,10 @@
+---
+layout: default
+---
+
 # Część 5. Sprawdź to sam
 
-Wszystko poniżej można skopiować i wkleić u siebie. Pobierz dowolny model z tej stawki, wyślij mu prompt z jednego z jedenastu scenariuszy i porównaj jego notatkę z wynikiem wzorcowym. Pełne dane wszystkich scenariuszy są w [rozdziale 3a](./AI%20pod%20strzechy%2003a%20Szczegolowe%20dane%20testowe.md).
+Wszystko poniżej można skopiować i wkleić u siebie. Pobierz dowolny model z tej stawki, wyślij mu prompt z jednego z jedenastu scenariuszy i porównaj jego notatkę z wynikiem wzorcowym. Pełne dane wszystkich scenariuszy są w [rozdziale 3a](./03a-szczegolowe-dane-testowe.md).
 
 ## 5.1. Zapytanie
 

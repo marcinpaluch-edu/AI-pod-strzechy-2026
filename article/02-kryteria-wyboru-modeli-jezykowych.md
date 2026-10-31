@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Część 2. Kryteria wyboru modeli językowych
 
 Niniejszy tekst tłumaczy różne kryteria wyboru modeli językowych do mojego testu. A są to:
@@ -299,6 +303,6 @@ Krajobraz modeli LLM zmienia się z miesiąca na miesiąc i ciągle pojawiają s
 Model jest bardzo wydajny. Zawiera 33 miliardy parametrów ogółem, z czego 3 miliardy są aktywne dzięki architekturze Mixture-of-Experts. Modele Laguna XS zostały zaprojektowane do uruchamiania lokalnego na sprzęcie konsumenckim lub deweloperskim – takim jak procesory Apple Silicon czy integracje z Ollama. To czyni je atrakcyjnymi dla entuzjastów lokalnych modeli LLM i przykuły również moją uwagę. 
 Dyskusje na platformach takich jak Hacker News oraz na forach poświęconych lokalnej sztucznej inteligencji wykazują duże zainteresowanie modelem ze względu na jego liberalną licencję OpenMDW-1.1, opcje kwantyzacji (np. pliki GGUF) oraz integrację z systemem agentowym pool od Poolside. Użytkownicy zauważają jednak, że poza kodowaniem jego użyteczność jest znacznie węższa w porównaniu do modeli ogólnego przeznaczenia. Czy tak się okaże w moim badaniu? Przekonam się. 
 
-Profile wydawców modeli ujętych w badaniu znajdziesz [tutaj](./AI%20pod%20strzechy%2007%20Profile%20wydawcow%20modeli.md).
+Profile wydawców modeli ujętych w badaniu znajdziesz [tutaj](./07-profile-wydawcow-modeli.md).
 
 Zapraszam
