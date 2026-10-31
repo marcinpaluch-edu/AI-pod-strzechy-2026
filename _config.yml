@@ -2,7 +2,7 @@ title: AI pod strzechy!
 description: Artykuł o uruchamianiu modeli językowych AI na domowym komputerze.
 url: https://marcinpaluch-edu.github.io
 baseurl: /AI-pod-strzechy-2026
-theme: minima
+theme: jekyll-theme-slate
 plugins:
   - jekyll-relative-links
 relative_links:
